@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #919191;
+}
+#checkNav{
+    width: 100%;
+    height: 125px;
+    background-color: #6e0000;
+    font-family: 'Raleway', sans-serif;
+}
+#title{
+    color: #d4d4d4;
+    font-size: 400%;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: auto;
+}
+#titlecard{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+    align-content:center;
+    justify-content: center;
+}
+.logoimg{
+
+    background-image: url("login/logo/logoburger.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:solid 2px #2b2a2a;
+    border-radius: 10px;
+}
+#mainCon{
+    max-width: 1140px;
+    margin: auto;
+    min-height: 600px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+#reciept{
+    width: 25%;
+    min-height: 500px;
+    background-color: #2b2a2a;
+    color: #919191;
+    margin: 20px;
+    box-shadow:6px 4px rgb(30,30,30);
+}
+#checkOpt{
+    width: 70%;
+    min-height: 500px;
+    margin: 20px;
+    background-color: #2b2a2a;
+    padding: 20px;
+    border-radius: 20px;
+    padding-left: 100px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    color: #919191;
+}
+#itemlist{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-bottom: solid #919191 2px;
+    border-collapse: collapse;
+    color: #919191;
+}
+#itemlist th{
+    border-left: solid #919191 2px;
+    border-bottom: solid #919191 2px;
+}
+#itemlist td{
+    border-left: solid #919191 2px;
+}
+.recTot{
+    border-top: solid #919191 2px;
+}
+#tip{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid #919191 1px;
+    border-collapse: collapse;
+    color: #919191;
+}
+#tip th{
+    border: solid #919191 1px;
+}
+#tip td{
+    border: solid #919191 1px;
+    width: 100px;
+}
+#tip input{
+    width: 80px;
+    display: inline;
+}
+#tax{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid #919191 1px;
+    border-collapse: collapse;
+    color: #919191;
+}
+#tax td{
+    border: solid #919191 1px;
+    width: 100px;
+}
+#tot{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid #919191 1px;
+    border-collapse: collapse;
+    color: #919191;
+}
+#tot td{
+    border: solid #919191 1px;
+    width: 100px;
+}
+h2{
+    font-size: 185%;
+    margin-top: 40px;
+}
+.info{
+    height: 25px;
+    width: 50px;
+    background-color: #d4d4d4;
+    border: solid 2px #919191;
+    color: #2b2a2a;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.info:hover{
+    background-color: #656464;
+}
+#nobtn{
+    text-decoration: none;
+    width: 10px;
+    height: 25%;
+    color: #2b2a2a;
+}
+#yesbtn{
+    margin-left: 150px;
+    height: 25px;
+    width: 50px;
+    background-color: #d4d4d4;
+    border: solid 2px #919191;
+    color: #2b2a2a;
+    display: inline-block;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+#revtext{
+    margin: 15px 0px;
+}
+label{
+    font-size: 125%;
+    color: #d4d4d4;
+}
+#starnum{
+    width: 75px;
+}

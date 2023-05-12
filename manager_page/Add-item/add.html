@@ -1,0 +1,75 @@
+<head>
+    <title>Manager page</title>
+    <link rel="stylesheet" href="add.css" />
+    <script  src="add.js"></script>
+</head>
+<body style="background-color: black;">
+    
+    <header class="main-header" >
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">REWARDS</a></li>
+                <li><a href="">SPECIALS</a></li>
+                <li><a href="">Add Items</a></li>
+            </ul>
+        </nav>
+        <h1 class="menu menu-large" style="background-color:#d4d4d4;">Add Items</h1>
+    </header>
+
+    <section class="cent">
+        <div>
+            <p>Item name</p>
+            <input id="inpKey" placeholder="Name">
+        </div>
+
+        <div>
+            <p>Price of Item</p>
+            <input id="inpValue" placeholder="$">
+        </div>
+
+        <input type = "file" id="myFileInput">  
+        
+        <button id="btnInsert">Add to menu</button>
+
+    </section>
+
+
+    <script>
+        const inpKey = document.getElementById("inpKey");
+        const inpValue = document.getElementById("inpValue");
+
+
+        document.querySelector("#myFileInput").addEventListener("change", function () {
+            const reader = new FileReader(); 
+
+            reader.addEventListener("load", () => {
+                localStorage.setItem("recent-image", reader.result);
+            });
+
+            reader.readAsDataURL(this.files[0]); 
+        });
+
+        document.addEventListener("DOMContentLoader", () => {
+            const recentImageDataurl= loacalStorage.getItem("recent-image");
+
+            if (recentImageDataURL) {
+                document.querySelector("#imgPreview").setAttribute("src", recentImageDataUrl);
+            }
+        });
+
+        btnInsert.onclick = function(){
+            const key = inpKey.value;
+            const value = inpValue.value;
+
+            console.log(key);
+            console.log(value);
+
+            if (key && value){
+                localStorage.setItem(key, value);
+                location.reload();
+            }
+        };
+    </script>
+</body>

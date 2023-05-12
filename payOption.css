@@ -1,0 +1,83 @@
+/*Body*/
+body{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color:	#919191;
+  color: #d4d4d4;
+}
+select{
+  font-family: 'Noto Serif', serif;
+}
+.flexcont{
+  display: flex;
+  flex-direction: row;
+  background-color: #2b2a2a;
+  margin: 5%;
+  border-radius: 20px;
+}
+
+/*div left*/
+/*Header*/
+.back{
+  margin-right: 75%;
+  text-decoration: none;
+  color: #d4d4d4;
+}
+/*Body*/
+.left{
+  width: 40%;
+  background-color: #5e0000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#ssb{
+  margin-top: 10%;
+}
+.body img{
+  margin-top: 5%;
+  width: 90%;
+}
+#thanks{
+  margin-top: 10%;
+}
+.body h4{
+  margin-top: 20%;
+}
+
+/*div right*/
+/*Header*/
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+/*Body*/
+.right{
+  margin-left: 15%;
+}
+.checkout-btn{
+  text-decoration: none;
+  background-color: #8d0000;
+  padding: 2.5%;
+  border-radius: 5px;
+  color: #d4d4d4;
+  font-family: 'Arimo', sans-serif;
+}
+
+.cash{
+  display: none;
+}
+.cash div{
+  display: flex;
+  flex-direction: column;
+}
+.credit{
+  display: none;
+}
+.credit div{
+  display: flex;
+  flex-direction: column;
+}
+.creditinfo{
+  display: flex;
+  flex-direction: column;
+}
+/*testing*/

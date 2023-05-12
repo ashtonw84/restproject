@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black Jack!</title>
+        <link rel="stylesheet" href="blackjack.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Forum&family=Yellowtail&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Black Jack</h1>
+        </header>
+        <body>
+            <img id="card1">
+            <img id="card2">
+            <img id="card3">
+            <img id="card4">
+            <p id="didIWin"></p>
+            <div>
+                <button class="hideme" id="hitMe" style="display:none;" onclick="hitme1();">Hit Me!</button>
+                <button class="hideme" id="hitMe2" style="display:none;" onclick="hitme2();">Hit Me!</button>
+                <button class="hideme" id="hold" style="visibility:hidden;" onclick="result()">Hold</button>
+                <br>
+                <button class="button" id="btn" onclick="randomizer()">Play</button>
+                <br>
+                <button type="button" onclick="myReload()">Restart</button>
+                <p>Ace will always equal one</p>
+            </div>
+            
+        </body>
+        <script src="blackjack.js"></script>
+    </body>
+</html>

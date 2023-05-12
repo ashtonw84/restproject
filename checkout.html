@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Checkout</title>
+        <link rel="stylesheet" href="check.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <nav id="checkNav">
+            <div id="titlecard">
+                <img src="login/logo/ssburger.png" class="logoimg" style="width: 10%;">
+                <h1 id="title">Checkout</h1>
+            </div>
+        </nav>
+        <div id="mainCon">
+            <div id="reciept">
+                <table id="itemlist">
+                    <th>Item</th>
+                    <th>Price</th>
+                </table>
+                <table id="tip">
+                    <tr>
+                        <td>Tip %</td>
+                        <td id="tipspace">%<input type="number" id="tipin"><p id="tiptex"></p></td>
+                    </tr>
+                    <tr>
+                        <td>Tip Total</td>
+                        <td id="tipval">$<input type="number" id="tipDir"></td>
+                    </tr>
+                </table>
+                <table id="tax">
+                    <tr>
+                        <td>TAX Total</td>
+                        <td id="taxval">$</td>
+                    </tr>
+                </table>
+
+                <table id="tot">
+                    <tr>
+                        <td>Order Total</td>
+                        <td id="fintot">$</td>
+                    </tr>
+                </table>
+            </div>
+            <div id=checkOpt>
+                <h2>Name:</h2>
+                <h3 id="cardname"></h3>
+                <h2 id="cardtitle">Card Number:</h2>
+                <h3 id="cardNum"></h3>
+                <h2 id="ques">Is this payment information correct?</h2>
+                <button id="yesbtn" class="info">Yes</button>
+                <div class="info" id="nodiv"><a href="payoption.html" id="nobtn">No</a></div>
+                <label for="starnum" class="reviewform">on a scale of 1-5 how was your Experience</label><br>
+                <input type="number" id="starnum" class="reviewform"><br>
+                <label for="revtext" class="reviewform">Leave a Review</label><br>
+                <textarea name="revtext" id="revtext"  class="reviewform" cols="50" rows="10" itemid="revtext"></textarea><br>
+                <button id="revbtn" class="reviewform">Submit Review</button><br>
+            </div> 
+            
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

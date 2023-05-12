@@ -1,0 +1,73 @@
+body{
+    background-image: url('../img/pokertable.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: 'Yellowtail', cursive;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: 'Forum', cursive;
+    margin-top: 0;
+}
+#control{
+    border: #2b2a2a 10px solid;
+    border-radius: 10px;
+    background-color: #8d0000;
+    height: 240px;
+    width:240px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#playhand{
+    height: 160px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: #2b2a2a 10px solid;
+    border-radius: 10px;
+    background-color: #8d0000;
+}
+.playcard{
+    height: 150px;
+    width: auto;
+}
+#comphand{
+    height: 160px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: #2b2a2a 10px solid;
+    border-radius: 10px;
+    background-color: #8d0000;
+}
+.cardBack{
+    height: 150px;
+    width: auto;
+}
+.menbtn{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#betbtns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../login/login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Raleway:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <div id="img"><img src="logo/ssburger.png" id="logo" alt="Logo"></div>
+            <div id="signuplink"><a href="signup.html">Sign Up Today!</a></div>
+        </div>
+        <section class="body">
+            <div class="left">
+                <img src="img/burger.webp">
+                <h3 class="motto" id="hideme">Sign in to start ordering now!</h3>
+                <div id="output">
+                    <!--Displays welcome message-->
+                </div>
+            </div>
+            <div class="middle">
+                <h2>Register</h2>
+                <form action="../menu/menu.html" onsubmit="register(event)">
+                    <p>Enter name</p>
+                    <input type="text" placeholder="Name" id="name" required>
+                    <p>Enter Email</p>
+                    <input type="email" placeholder="Email" id="email" required>
+                    <p>Password</p>
+                    <input type="password" id="password" name="password" minlength="8" placeholder="Password" required>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Sign Up" id="signup-btn"></input>
+                </form>
+                <br>
+                <a href="../login/login.html">Already Have An Account?</a>
+            </div>
+            <div class="right">
+                <p>Amazing food and hospitality!!! Thank<br>
+                   you to Chef for letting us sit and having a<br>
+                   variety of food to try and enjoy. We really<br>
+                   were blown away by the flavors, and most<br>
+                   specially, the ROYAL BURGER! Def a<br>
+                   must try place when visiting Lancaster!</p>
+                <img src="five.png">
+            </div>
+        </section>
+        <script src="login.js"></script>
+    </body>
+</html>
